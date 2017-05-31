@@ -23,7 +23,7 @@ class currentaccount(account):
         if (amount > self.balance or self.balance <15000):
             print("Insufficient Balance")
         else:
-            self.balance = (self.balance - amount) - amount*0.1
+            self.balance = (self.balance - amount) - (amount*0.1)
         return self.balance
 
 class savingsaccount(account):
